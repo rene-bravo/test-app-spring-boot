@@ -1,21 +1,4 @@
-<div class="col-md-6">
-    <h2 class="text-center">Add Employee</h2>
-  <form>
-    <div class="form-group">
-      <label for="name">Name:</label>
-      
-    </div>
-  
-    <div class="form-group">
-      <label for="designation">Designation:</label>
-      
-    </div>
-  
-    <div class="form-group">
-      <label for="empId">Employee Id</label>
-      
-    </div>
-  
-    <button class="btn btn-success" (click)="countRepeatedNumberInArray()">Create</button>
-  </form>
-  </div>
+<input name="arrayOne" id="arrayOne" type="name" [(ngModel)]="testDTO.arrayOne" required class="form-control" placeholder="arrayOne">
+<span class="input-group-addon">-</span>
+<input name="arrayTwo" id="arrayTwo" type="name" [(ngModel)]="testDTO.arrayTwo" required class="form-control" placeholder="arrayTwo">
+<button class="btn btn-success" (click)="countRepeatedNumberInArray()">Create</button>
